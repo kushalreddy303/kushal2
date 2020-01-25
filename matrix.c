@@ -20,7 +20,7 @@ for(j=0;j<=2;j++)
        for(j=0;j<=2;j++){
 
 
-    C[i][j]=A[i][j](push)B[i][j];
+    C[i][j]=A[i][j]*B[i][j];
     printf("%d ",C[i][j]);
 
        }
